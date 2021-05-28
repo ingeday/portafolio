@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" height="20" width="70" alt="">
+                <nav aria-label="main-navigation" class="menu">
+                    <ul>
+                        <li><a class="is-active" href="#main">Hola</a></li>
+                        <li><a href="#project">Proyectos</a></li>
+                        <li><a href="#contact">Hablemos</a></li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section aria-label="main" class="hero">
+            <div class="hero-image">
+                <img src="./images/Eday.png" width="328" height="330" alt="">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>Hola a todos!</span>
+                    <span>Soy Eday Alix!</span>
+                </h1>
+                <p class="body1">Desarrollador FullStack que le encanta solucionar problemas cotidianos tomando como base la tecnología en términos de software.</p>
+                <div class="social">
+                    <a class="button-icon" href="tel:573007394667"><img src="./icons/icon-phone.svg" alt=""></a>
+                    <a class="button-icon" href="mailto:edaygonzalez@ingenieros.com"><img src="./icons/icon-important_mail.svg" alt=""></a>
+                    <a class="button-icon" href="https://www.instagram.com/ingeday/"><img src="./icons/icon-instagram.svg" alt=""></a>
+                    <a class="button-icon" href="https://www.twitter.com/ingeday/"><img src="./icons/icon-twitter_squared.svg" alt=""></a>
+                </div>
+                <a href="https://" class="button">Descargar Curriculum</a>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="project-intro">
+                <span>A lo largo de mi carrera como Ingeniero, he tenido el privilegio de trabajar en proyectos retadores e increíbles.</span>
+                <span>Aquí hay algunos que me gustaría compartir.</span>
+                <img src="./icons/icons-down.svg" width="80" height="80" alt="">
+            </div>
+    
+            <div class="project" id="project">
+                <div class="project-image">
+                    <img src="./images/leonidasesteban.png" alt="">
+                </div>
+                <div class="project-description">
+                    <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                    <a target="_blank" class="button is-secondary" href="#">Ver Código</a>
+                    <a target="_blank" class="button" href="#">Proyecto</a>
+                </div>
+            </div>
+            <div class="comment">
+                <img class="comment-image" src="./images/user.png" width="64" height="64" alt="">
+                <p class="comment-text">"Eday ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".</p>
+                <p class="comment-author">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+            </div>
+
+        
+
+            <div class="project">
+                <div class="project-image">
+                    <img src="./images/marvol.png" alt="">
+                </div>
+                <div class="project-description">
+                    <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                    <a target="_blank" class="button is-secondary" href="#">Ver Código</a>
+                    <a target="_blank" class="button" href="#">Proyecto</a>
+                </div>
+            </div>
+            <div class="comment">
+                <img class="comment-image" src="./images/user-1.png" width="64" height="64" alt="">
+                <p class="comment-text">"Eday ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+                <p class="comment-author">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+            </div>
+        
+
+            <div class="project">
+                <div class="project-image">
+                    <img src="./images/netnet.png" alt="">
+                </div>
+                <div class="project-description">
+                    <a class="title" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                    <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                    <a target="_blank" class="button is-secondary" href="#">Ver Código</a>
+                    <a target="_blank" class="button" href="#">Proyecto</a>
+                </div>
+            </div>
+            <div class="comment">
+                <img class="comment-image" src="./images/user-2.png" width="64" height="64" alt="">
+                <p class="comment-text">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+                <p class="comment-author">MARCO CORTEZ / NETNET</p>
+            </div>
+        </section>
+        <form action="" method="POST" class="form" id="contact">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+                <label for="name">Nombre Completo
+                    <input required type="text" id="name" name="name" placeholder="Juan">
+                </label>
+    
+                <label for="email">Correo electrónico
+                    <input required type="email" id="email" name="email" placeholder="juan@tucorreo.com">
+                </label>
+    
+                <label for="message">Tu Mensaje
+                    <textarea required name="message" placeholder="Mensaje" id="message" cols="30" rows="10"></textarea>
+                </label>
+    
+                <button class="button" type="submit">Enviar Mensaje</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img class="logo" src="./images/logo.png" height="20" width="70" alt="">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="tel:573007394667"><img src="./icons/icon-phone.svg" alt=""></a>
+                    <a class="button-icon" href="mailto:edaygonzalez@ingenieros.com"><img src="./icons/icon-important_mail.svg" alt=""></a>
+                    <a class="button-icon" href="https://www.instagram.com/ingeday/"><img src="./icons/icon-instagram.svg" alt=""></a>
+                    <a class="button-icon" href="https://www.twitter.com/ingeday/"><img src="./icons/icon-twitter_squared.svg" alt=""></a>
+                </div>
+                <p>
+                    <span>Hecho con el 💚 por Eday Alix</span>
+                    <span>Copyright 2021 - Todos los derechos reservados.</span>
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
